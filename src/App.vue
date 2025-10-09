@@ -31,7 +31,7 @@ export default {
   position: relative;
   overflow: hidden;
   /* Prepared for animated background */
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--primary-gradient);
 }
 
 .content {
