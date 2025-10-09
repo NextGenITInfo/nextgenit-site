@@ -1,16 +1,21 @@
 # nextgenit-site
 
-A minimal, responsive Vue 3 + Vite landing page for NextGenIT, designed for deployment on Cloudflare Pages.
+A modern, futuristic Vue 3 + Vite landing page for NextGenIT meetups, designed for deployment on Cloudflare Pages.
 
 ## Features
 
 - 🚀 Built with Vue 3 and Vite for fast development and optimized production builds
 - 📱 Fully responsive design with mobile-first approach
-- 🎨 Modern gradient background with smooth animations
+- 🎨 Dark theme with NextGenIT brand colors (#00FFD1, #FE005B, #18204E)
+- ✨ Animated particle background with floating elements
+- 🔮 Glassmorphism effects with neon glow animations
+- 🎯 Interactive logo with hover effects and shimmer animation
+- 📱 Social media links with animated hover states
+- 🌟 Smooth animations and transitions throughout
 - ♿ Accessibility-friendly with proper semantic HTML and focus states
-- 🎯 Centered logo placeholder and clean typography
-- 🔮 Prepared structure for animated backgrounds and social icons
+- 🔍 SEO optimized with meta tags and Open Graph support
 - ⚡ Static site generation for optimal performance
+- 🎭 Modern typography with Alatsi font from Google Fonts
 
 ## Development
 
@@ -52,9 +57,13 @@ nextgenit-site/
 
 ## Technologies
 
-- **Vue 3**: Progressive JavaScript framework
-- **Vite**: Next-generation frontend tooling
-- **Modern CSS**: Custom properties, gradients, and responsive design
+- **Vue 3**: Progressive JavaScript framework with Composition API
+- **Vite**: Next-generation frontend tooling with fast HMR
+- **Modern CSS**: Custom properties, glassmorphism, animations, and responsive design
+- **Google Fonts**: Alatsi font for modern typography
+- **CSS Animations**: Keyframe animations and transitions
+- **Glassmorphism**: Backdrop filters and translucent elements
+- **Neon Effects**: Box shadows and glow effects for futuristic look
 
 ## License
 
