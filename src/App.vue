@@ -38,8 +38,7 @@
       </div>
       <h1 class="title">NextGenIT</h1>
       <p class="description">
-        NextGenIT to cykl meetupów tworzonych z myślą o młodym pokoleniu pasjonatów nowych technologii.
-        Spotkania łączą uczniów IT z ekspertami z branży, inspirując do rozwoju i współpracy.
+        NextGenIT to cykl spotkań, który inspiruje młode pokolenie do odkrywania, tworzenia i rozwoju w świecie nowych technologii. Łączymy przyszłych i obecnych specjalistów IT, tworząc przestrzeń wymiany wiedzy, doświadczeń i inspiracji.
       </p>
       <div class="social-icons">
         <a href="https://www.facebook.com/nextgenitkrk" target="_blank" rel="noopener noreferrer" class="social-link">
