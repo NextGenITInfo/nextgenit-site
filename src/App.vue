@@ -40,6 +40,23 @@
       <p class="description">
         NextGenIT to cykl spotkań, który inspiruje młode pokolenie do odkrywania, tworzenia i rozwoju w świecie nowych technologii. Łączymy przyszłych i obecnych specjalistów IT, tworząc przestrzeń wymiany wiedzy, doświadczeń i inspiracji.
       </p>
+      <div class="quizzes">
+        <div class="quiz-card">
+          <div class="quiz-info">
+            <h2 class="quiz-title">Quiz 1</h2>
+            <p class="quiz-time">Start: 10:00 • Koniec: 13:30 • Wręczenie nagród: 13:50</p>
+          </div>
+          <a class="quiz-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeu_SybcchIAd5lyg4WVwy0LGMCMe_sA4_R1OtVk3MmlXr2IA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Weź udział</a>
+        </div>
+        <div class="quiz-card">
+          <div class="quiz-info">
+            <h2 class="quiz-title">Quiz 2</h2>
+            <p class="quiz-time">Start: 14:00 • Koniec: 15:30 • Wręczenie nagród: 15:50</p>
+          </div>
+          <a class="quiz-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSekfGxdxWy2qDPpVjg9B9Xiuritb-974z9UGq4y46w622UNXg/viewform?usp=dial" target="_blank" rel="noopener noreferrer">Weź udział</a>
+        </div>
+      </div>
+      <p class="follow-label">Zachęcamy do obserwowania!</p>
       <div class="social-icons">
         <a href="https://www.facebook.com/nextgenitkrk" target="_blank" rel="noopener noreferrer" class="social-link">
           <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -542,6 +559,98 @@ export default {
 
 .social-link:hover .social-icon {
   transform: scale(1.1);
+}
+
+/* Follow label */
+.follow-label {
+  color: var(--text-primary);
+  font-family: var(--font-title);
+  font-size: 1.5rem; /* slightly smaller than the 3.25rem title */
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-top: 2.50rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Quizzes section */
+.quizzes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem auto 1.25rem auto; /* extra bottom space before follow label */
+  max-width: 820px;
+}
+
+.quiz-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+  background: rgba(24, 32, 78, 0.45);
+  border: 1px solid rgba(201, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+}
+
+.quiz-info {
+  text-align: left;
+}
+
+.quiz-title {
+  margin: 0 0 0.25rem 0;
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  color: var(--text-primary);
+}
+
+.quiz-time {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.quiz-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1.1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0b1633;
+  background: linear-gradient(135deg, var(--primary), #6dffe8);
+  border: 1px solid rgba(0, 255, 209, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 1; /* tighter */
+  white-space: nowrap;
+}
+
+.quiz-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 255, 209, 0.18);
+  background: linear-gradient(135deg, #6dffe8, var(--primary));
+}
+
+@media (max-width: 768px) {
+  .quizzes {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .quiz-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  .quiz-info {
+    text-align: left;
+  }
+  .quiz-btn {
+    width: 100%;
+  }
 }
 
 /* Responsive design */

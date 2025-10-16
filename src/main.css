@@ -25,7 +25,7 @@
   --deep-bg: #18204E;
   --primary-gradient: linear-gradient(135deg, #18204E 0%, #0F1A3A 50%, #1A2A5A 100%);
   --text-primary: #ffffff;
-  --text-secondary: rgba(201, 255, 255, 0.9);
+  --text-secondary: #eafeff;
   --glass-bg: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
 }

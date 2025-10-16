@@ -1,0 +1,23 @@
+{
+  "name": "NextGenIT",
+  "short_name": "NextGenIT",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#00FFD1",
+  "background_color": "#18204E",
+  "display": "standalone"
+}
