@@ -44,14 +44,22 @@
         <div class="quiz-card">
           <div class="quiz-info">
             <h2 class="quiz-title">Quiz 1</h2>
-            <p class="quiz-time">Start: 10:00 • Koniec: 13:30 • Wręczenie nagród: 13:50</p>
+            <p class="quiz-time">
+              <span class="time-label">Start:</span> <strong class="time-bold">8:50</strong><br>
+              <span class="time-label">Koniec:</span> <strong class="time-bold">13:00</strong><br>
+              <span class="time-label">Wręczenie nagród na stoisku NextGenIT:</span> <span class="time-prize">13:15</span>
+            </p>
           </div>
           <a class="quiz-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeu_SybcchIAd5lyg4WVwy0LGMCMe_sA4_R1OtVk3MmlXr2IA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Weź udział</a>
         </div>
         <div class="quiz-card">
           <div class="quiz-info">
             <h2 class="quiz-title">Quiz 2</h2>
-            <p class="quiz-time">Start: 14:00 • Koniec: 15:30 • Wręczenie nagród: 15:50</p>
+            <p class="quiz-time">
+              <span class="time-label">Start:</span> <strong class="time-bold">13:20</strong><br>
+              <span class="time-label">Koniec:</span> <strong class="time-bold">15:00</strong><br>
+              <span class="time-label">Wręczenie nagród na stoisku NextGenIT:</span> <span class="time-prize">15:10</span>
+            </p>
           </div>
           <a class="quiz-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSekfGxdxWy2qDPpVjg9B9Xiuritb-974z9UGq4y46w622UNXg/viewform?usp=dial" target="_blank" rel="noopener noreferrer">Weź udział</a>
         </div>
@@ -607,6 +615,29 @@ export default {
   margin: 0;
   font-size: 0.95rem;
   color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.time-label {
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.time-bold {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.time-prize {
+  color: var(--light-accent);
+  font-weight: 700;
+  font-size: 1.1em;
+  background: linear-gradient(135deg, var(--light-accent), var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  vertical-align: baseline;
+  line-height: 1.4;
 }
 
 .quiz-btn {
@@ -677,13 +708,13 @@ export default {
   }
   
   .social-link {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   
   .social-icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -709,17 +740,17 @@ export default {
   }
   
   .social-icons {
-    gap: 1rem;
+    gap: 1.25rem;
   }
   
   .social-link {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
   }
   
   .social-icon {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
   }
 }
 
