@@ -40,6 +40,8 @@
       <p class="description">
         NextGenIT to cykl spotkań, który inspiruje młode pokolenie do odkrywania, tworzenia i rozwoju w świecie nowych technologii. Łączymy przyszłych i obecnych specjalistów IT, tworząc przestrzeń wymiany wiedzy, doświadczeń i inspiracji.
       </p>
+      <!-- QUIZES SECTION - COMMENTED OUT FOR HIDING -->
+      <!--
       <div class="quizzes">
         <div class="quiz-card">
           <div class="quiz-info">
@@ -64,6 +66,7 @@
           <a class="quiz-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSekfGxdxWy2qDPpVjg9B9Xiuritb-974z9UGq4y46w622UNXg/viewform?usp=dial" target="_blank" rel="noopener noreferrer">Weź udział</a>
         </div>
       </div>
+      -->
       <p class="follow-label">Zachęcamy do obserwowania!</p>
       <div class="social-icons">
         <a href="https://www.facebook.com/nextgenitkrk" target="_blank" rel="noopener noreferrer" class="social-link">
@@ -580,12 +583,13 @@ export default {
   margin-bottom: 0.25rem;
 }
 
-/* Quizzes section */
+/* QUIZES SECTION STYLES - COMMENTED OUT FOR HIDING */
+/*
 .quizzes {
   display: grid;
   grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 1rem;
-  margin: 1.25rem auto 1.25rem auto; /* extra bottom space before follow label */
+  margin: 1.25rem auto 1.25rem auto;
   max-width: 820px;
 }
 
@@ -654,7 +658,7 @@ export default {
   font-family: var(--font-body);
   font-weight: 600;
   letter-spacing: 0.2px;
-  line-height: 1; /* tighter */
+  line-height: 1;
   white-space: nowrap;
 }
 
@@ -683,6 +687,7 @@ export default {
     width: 100%;
   }
 }
+*/
 
 /* Responsive design */
 @media (max-width: 768px) {
